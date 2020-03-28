@@ -1,5 +1,10 @@
 /* Space out content a bit */
 body {
+  background-image: url(/images/akan-stool.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-top: 20px;
   padding-bottom: 20px;
 }
