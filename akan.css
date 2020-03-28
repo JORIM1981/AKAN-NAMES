@@ -17,6 +17,14 @@ body {
   padding-left: 15px;
 }
 
+.jumboHeaderImg {
+  background-image: url(/images/friendship.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: -150px;
+  
+}
+
 /* Custom page header */
 .header {
   padding-bottom: 20px;
