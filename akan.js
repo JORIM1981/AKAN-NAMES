@@ -49,7 +49,7 @@ months[12]= "December"
 
 function compute(form) {
   let val1=parseInt(form.day.value,10)
-  if((val1<0)||(val2>31)) {
+  if((val1<0)||(val1>31)) {
     alert("Please pick a valid day")
   }
   let val2=parseInt(form.month.value,10)
