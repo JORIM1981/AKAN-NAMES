@@ -68,17 +68,21 @@
                 <div class="form">
                   <form>
                     <table>
-                    <p>Days  : <input TYPE="text" NAME="day" SIZE="2"> </p>
-                    <p>Month: <input TYPE="text" NAME="month" SIZE="2"> </p>
-                    <p>Year : <input TYPE="text" NAME="year" SIZE="3"> </p>    
+                    <p>Days  : <input TYPE="text" NAME="day" SIZE="2"></p>
+                    <p>Month: <input TYPE="text" NAME="month" SIZE="2"></p>
+                    <p>Year : <input TYPE="text" NAME="year" SIZE="3"></p>    
                     <h6><u><b>GENDER</b></h6></u></h>
-                    <div class="button">
-                    <p><input type="button" value="Male"  ONCLICK="compute(this.form)"></p> 
-                    <p><input type="button" value="Female" ONCLICK="tomm(this.form)"></p>
-                    <p><input type="reset" value="Reset"></p>
-                    </div>
-                    <p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="15"> </p>
-                    <p>Akan Name: <input TYPE="text" NAME="result2" SIZE="15"> </p>
+                        <div class="form-row">
+                            <div class="col">
+                              <div class="button">
+                              <p><input type="button" class="btn btn-outline-dark btn-sm btn-block" value="Male"  ONCLICK="compute(this.form)"></p> 
+                              <p><input type="button" class="btn btn-outline-dark btn-sm btn-block" value="Female" ONCLICK="tomm(this.form)"></p>
+                              </div>
+                            </div>
+                              <p><input type="reset" class="btn btn-outline-dark btn-sm" value="Reset"></p>
+                        </div>
+                              <p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="12"></p>
+                              <p>Akan Name: <input TYPE="text" NAME="result2" SIZE="12"></p>
                     </table>                                     
                   </form>
                 </div>
