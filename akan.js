@@ -75,10 +75,43 @@ function compute(form) {
   let val7=parseInt(val3/400,10)
   let val8=val1+(val2x*2)+val3+val4+val5-val6+val7+2
   let val9=parseInt(val8/7,10)
-  let val10=val8-(val9*7)
+  let val0=val8-(val9*7)
   form.result1.value=months[val2]+""+form.day.value+""+form.year.value
   form.results2.value=days[val0]
 
 }
   
+function tomm(form) {
+  let val1=parseInt(form.day.value,10)
+  if((val1<0)||(val1>31)||(val1=null)||(val1='')) {
+    alert("Please pick a valid day")
+  }
+  let val2=parseInt(form.month.value,10)
+  if((val2<0)||(val2>12)||(val1=null)||(val1='')) {
+    alert("Please pick a valid month")
+  }
+  let val2x=parseInt(form.month.value,10)
+  let val3=parseInt(form.year.value,10)
+  if(val3<1900) {
+    alert("Methuselah!")
+  }
+  if(val2==1) {
+    val2x=13;
+    val3=val3-1
+  }
+  if(val2==2) {
+    val2x=14;
+    val3=val3-1
+  }
+  let val4=parseInt(((val2x+1)*3)/5,10)
+  let val5=parseInt(val3/4,10)
+  let val6=parseInt(val3/100,10)
+  let val7=parseInt(val3/400,10)
+  let val8=val1+(val2x*2)+val3+val4+val5-val6+val7+2
+  let val9=parseInt(val8/7,10)
+  let val0=val8-(val9*7)
+  form.result1.value=months[val2]+""+form.day.value+""+form.year.value
+  form.results2.value=day[val0]
+    
+}
   
