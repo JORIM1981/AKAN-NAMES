@@ -8,22 +8,22 @@ function MakeArray(n) {
 
 //Initialize Days of Week Array male names
 days = new MakeArray(7);
-days[0] = "Kwasi"
-days[1] = "Kwadwo"
-days[2] = "Kwabena"
-days[3] = "Kwaku"
-days[4] = "Yaw"
-days[5] = "Kofi"
-days[6] = "Kwame"
+days[0] = "Kwame"
+days[1] = "Kwasi"
+days[2] = "Kwadwo"
+days[3] = "Kwabena"
+days[4] = "Kwaku"
+days[5] = "Yaw"
+days[6] = "Kofi"
 //Initialize Days of Week Array female names
 day = new MakeArray(7);
-day[0] = "Akosua"
-day[1] = "Adwoa"
-day[2] = "Abenaa"
-day[3] = "Akua"
-day[4] = "Yaa"
-day[5] = "Afua"
-day[6] = "Ama"
+day[0] = "Ama"
+day[1] = "Akosua"
+day[2] = "Adwoa"
+day[3] = "Abenaa"
+day[4] = "Akua"
+day[5] = "Yaa"
+day[6] = "Afua"
 
 //Initialize Months Array
 months = new MakeArray(12);
