@@ -5,7 +5,7 @@
 
 A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
 
-![Akan-Names-Generator](https://github.com/JORIM1981/AKAN-NAMES/blob/master/images/Screenshot)
+![Akan-Names-Generator](https://github.com/JORIM1981/AKAN-NAMES/blob/master/images/Screenshot%20akan-names.png)
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ JSFiddle or JavaScript Console
 
 ##### Setup Instructions and Installation
 
-- Clone this repository to a location in your file system. `git clone https://github.com/YomZsamora/Akan-Names.git`
+- Clone this repository to a location in your file system. `git clone https://github.com/JORIM1981/AKAN-NAMES.git`
 - Open terminal command line then navigate to the root folder of the application. `cd Akan-names`
 - Open `index.html` on your Browser.
 
@@ -62,11 +62,11 @@ If you find a bug (the website couldn't handle the query and or gave undesired r
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 
-##### Link to Live Site : [https://yomzsamora.github.io/Akan-Names/](https://yomzsamora.github.io/Akan-Names/)
+##### Link to Live Site : [https://JORIM1981.github.io/AKAN-NAMES/](https://JORIM1981.github.io/AKAN-NAMES/)
 
 ### License
 
-*MIT Copyright (c) 2020 Okongo'o Midumbi*
+*MIT Copyright (c) 2020 Okongo'o Midumbi okongo.midumbi.opondo@gmail.com*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
