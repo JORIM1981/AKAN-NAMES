@@ -1,6 +1,6 @@
 /* Space out content a bit */
 body {
-  background-image: url(/images/akan-stool.jpg);
+  background-image: url(./images/akan-stool.jpg);
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 }
 
 .jumboHeaderImg {
-  background-image: url(/images/grunge-old-ghana-flag.jpg);
+  background-image: url(./images/grunge-old-ghana-flag.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
