@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="./favicon.ico">
 
     <title>Akan-Names Generator</title>
     
@@ -36,56 +36,69 @@
 
           <div class="row ghanian-names">
             <div class="col-md-4">
-              <h4><i class="fa fa-male"></i>&nbsp;&nbsp;Male</h4>
-              <ul class="fs11">
-                <li>Sunday: Kwasi</li>
-                <li>Monday: Kwadwo</li>
-                <li>Tuesday: Kwabena</li>
-                <li>Wednesday: Kwaku</li>
-                <li>Thursday:  Yaw</li>
-                <li>Friday: Kofi</li>
-                <li>Saturday: Kwame</li>
-              </ul>  
+              <div class="card bg-secondary text-black mb-3">
+                <div class="card-header text-center">
+                  Male:
+                </div>
+              
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Sunday: Kwasi</li>
+                      <li class="list-group-item">Monday: Kwadwo</li>
+                      <li class="list-group-item">Tuesday: Kwabena</li>
+                      <li class="list-group-item">Wednesday: Kwaku</li>
+                      <li class="list-group-item">Thursday: Yaw</li>
+                      <li class="list-group-item">Friday: Kofi</li>
+                      <li class="list-group-item">Saturday: Kwame</li>
+                    </ul>
+              </div>  
             </div>
 
             <div class="col-md-4">
-              <h4><i class="fa fa-female"></i>&nbsp;&nbsp;Female</h4>
-              <ul class="fs11">
-                <li>Sunday: Akosua</li>
-                <li>Monday: Adwoa</li>
-                <li>Tuesday: Abenaa</li>
-                <li>Wednesday: Akua</li>
-                <li>Thursday:  Yaa</li>
-                <li>Friday: Afua</li>
-                <li>Saturday: Ama</li>
-              </ul>
+              <div class="card bg-secondary text-black mb-3">
+                <div class="card-header text-center">
+                  Female:
+                </div>
+                    <ul class="list-group list-group-flush"></ul>
+                      <li class="list-group-item">Sunday: Akosua</li>
+                      <li class="list-group-item">Monday: Adwoa</li>
+                      <li class="list-group-item">Tuesday: Abenaa</li>
+                      <li class="list-group-item">Wednesday: Akua</li>
+                      <li class="list-group-item">Thursday: Yaa</li>
+                      <li class="list-group-item">Friday: Afua</li>
+                      <li class="list-group-item">Saturday: Ama</li>
+                    </ul>
+              </div>
             </div>
             <!-- Input Form -->
 
             <div class="col-md-4 mt30 akan-form">
-              <h4>Please Enter Your Birthdate Here:</h4>
-              <div class="add-stylist-form">
-                <div class="form">
-                  <form>
-                    <table>
-                    <p>Days  : <input TYPE="text" NAME="day" SIZE="2"></p>
-                    <p>Month: <input TYPE="text" NAME="month" SIZE="2"></p>
-                    <p>Year : <input TYPE="text" NAME="year" SIZE="3"></p>    
-                    <h6><u><b>GENDER</b></h6></u></h>
-                        <div class="form-row">
-                            <div class="col">
-                              <div class="button">
-                              <p><input type="button" class="btn btn-outline-dark btn-sm btn-block" value="Male"  ONCLICK="compute(this.form)"></p> 
-                              <p><input type="button" class="btn btn-outline-dark btn-sm btn-block" value="Female" ONCLICK="tomm(this.form)"></p>
-                              </div>
-                            </div>
-                              <p><input type="reset" class="btn btn-outline-dark btn-sm" value="Reset"></p>
-                        </div>
-                              <p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="12"></p>
-                              <p>Akan Name: <input TYPE="text" NAME="result2" SIZE="12"></p>
-                    </table>                                     
-                  </form>
+              <div class="card bg-secondary text-black mb-3">
+                <div class="card-header text-center">
+                  Please enter your birthdate here:
                 </div>
+                    <div class="add-stylist-form">
+                      <div class="form">
+                        <form>
+                          <table>
+                          <p>Days  : <input TYPE="text" NAME="day" SIZE="2"></p>
+                          <p>Month: <input TYPE="text" NAME="month" SIZE="2"></p>
+                          <p>Year : <input TYPE="text" NAME="year" SIZE="3"></p>    
+                          <h6><u><b>GENDER</b></h6></u></h>
+                              <div class="form-row">
+                                  <div class="col">
+                                    <div class="button">
+                                    <p><input type="button" class="btn btn-dark btn-sm btn-block" value="Male"  ONCLICK="compute(this.form)"></p> 
+                                    <p><input type="button" class="btn btn-dark btn-sm btn-block" value="Female" ONCLICK="tomm(this.form)"></p>
+                                    </div>
+                                  </div>
+                                    <p><input type="reset" class="btn btn-dark btn-sm" value="Reset"></p>
+                              </div>
+                                    <p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="12"></p>
+                                    <p>Akan Name: <input TYPE="text" NAME="result2" SIZE="12"></p>
+                          </table>                                     
+                        </form>
+                      </div>
+                    </div>
               </div>
             </div>
           </div>
